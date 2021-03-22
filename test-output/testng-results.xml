@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="282939" started-at="2021-03-22T14:42:40Z" finished-at="2021-03-22T14:47:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5c1a8622]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="282939" started-at="2021-03-22T14:42:40Z" finished-at="2021-03-22T14:47:23Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@5c1a8622]" name="setUpClass" is-config="true" duration-ms="209" started-at="2021-03-22T20:12:40Z" finished-at="2021-03-22T20:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5c1a8622]" name="feature" duration-ms="282397" started-at="2021-03-22T20:12:40Z" description="Run cucumber Feature" data-provider="features" finished-at="2021-03-22T20:17:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5c1a8622]" name="tearDownClass" is-config="true" duration-ms="256" started-at="2021-03-22T20:17:22Z" finished-at="2021-03-22T20:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:runner.TestRunner@5c1a8622]" name="afterScenario" is-config="true" duration-ms="0" started-at="2021-03-22T20:17:23Z" finished-at="2021-03-22T20:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
