@@ -19,7 +19,7 @@ public class GoogleSearchStepDefinition {
 	Selenium sel;
 	static int keyCounts = 0;
 	static int testCount = 0;
-
+	
 	@Given("^user launches the google application$")
 	public void user_launches_google_application() {
 		configFileReader = new ConfigFileReader();
