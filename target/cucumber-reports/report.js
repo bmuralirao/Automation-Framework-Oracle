@@ -152,7 +152,7 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_launches_google_application()"
 });
 formatter.result({
-  "duration": 10298393500,
+  "duration": 10242665100,
   "status": "passed"
 });
 formatter.match({
@@ -165,14 +165,14 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
 });
 formatter.result({
-  "duration": 3050398500,
+  "duration": 3854530200,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
 });
 formatter.result({
-  "duration": 140505200,
+  "duration": 125610600,
   "status": "passed"
 });
 formatter.match({
@@ -185,21 +185,21 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
 });
 formatter.result({
-  "duration": 1019400,
+  "duration": 6756300,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
 });
 formatter.result({
-  "duration": 16000,
+  "duration": 21100,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_close_browser()"
 });
 formatter.result({
-  "duration": 499986700,
+  "duration": 249180800,
   "status": "passed"
 });
 formatter.scenario({
@@ -253,7 +253,7 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_launches_google_application()"
 });
 formatter.result({
-  "duration": 10406738300,
+  "duration": 10930453100,
   "status": "passed"
 });
 formatter.match({
@@ -266,14 +266,14 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
 });
 formatter.result({
-  "duration": 3444407400,
+  "duration": 3355373200,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
 });
 formatter.result({
-  "duration": 141427900,
+  "duration": 160434400,
   "status": "passed"
 });
 formatter.match({
@@ -286,21 +286,21 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
 });
 formatter.result({
-  "duration": 1346700,
+  "duration": 6648900,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
 });
 formatter.result({
-  "duration": 16300,
+  "duration": 10900,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_close_browser()"
 });
 formatter.result({
-  "duration": 304828600,
+  "duration": 246827500,
   "status": "passed"
 });
 formatter.scenario({
@@ -354,7 +354,7 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_launches_google_application()"
 });
 formatter.result({
-  "duration": 11529424100,
+  "duration": 11011268700,
   "status": "passed"
 });
 formatter.match({
@@ -367,14 +367,14 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
 });
 formatter.result({
-  "duration": 4031772900,
+  "duration": 3195996800,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
 });
 formatter.result({
-  "duration": 127675000,
+  "duration": 137560200,
   "status": "passed"
 });
 formatter.match({
@@ -387,21 +387,21 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
 });
 formatter.result({
-  "duration": 905700,
+  "duration": 6369800,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
 });
 formatter.result({
-  "duration": 11400,
+  "duration": 10900,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_close_browser()"
 });
 formatter.result({
-  "duration": 306505700,
+  "duration": 310942200,
   "status": "passed"
 });
 formatter.scenario({
@@ -455,7 +455,7 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_launches_google_application()"
 });
 formatter.result({
-  "duration": 10978758200,
+  "duration": 11694996700,
   "status": "passed"
 });
 formatter.match({
@@ -468,14 +468,14 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
 });
 formatter.result({
-  "duration": 3506285100,
+  "duration": 3022958900,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
 });
 formatter.result({
-  "duration": 109654700,
+  "duration": 2015218800,
   "status": "passed"
 });
 formatter.match({
@@ -488,21 +488,21 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
 });
 formatter.result({
-  "duration": 896400,
+  "duration": 18118600,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
 });
 formatter.result({
-  "duration": 14400,
+  "duration": 33000,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_close_browser()"
 });
 formatter.result({
-  "duration": 305209500,
+  "duration": 310457500,
   "status": "passed"
 });
 formatter.scenario({
@@ -556,7 +556,7 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_launches_google_application()"
 });
 formatter.result({
-  "duration": 11013721700,
+  "duration": 10958192400,
   "status": "passed"
 });
 formatter.match({
@@ -569,14 +569,14 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
 });
 formatter.result({
-  "duration": 2588031100,
+  "duration": 3624202600,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
 });
 formatter.result({
-  "duration": 121554800,
+  "duration": 136150200,
   "status": "passed"
 });
 formatter.match({
@@ -589,21 +589,21 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
 });
 formatter.result({
-  "duration": 872200,
+  "duration": 5099100,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
 });
 formatter.result({
-  "duration": 5863000,
+  "duration": 9747300,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_close_browser()"
 });
 formatter.result({
-  "duration": 255770900,
+  "duration": 252575700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -730,7 +730,7 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_launches_google_application()"
 });
 formatter.result({
-  "duration": 9769047600,
+  "duration": 10129145000,
   "status": "passed"
 });
 formatter.match({
@@ -743,9 +743,47 @@ formatter.match({
   "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
 });
 formatter.result({
-  "duration": 4865058800,
+  "duration": 3927636700,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearchStepDefinition.user_checks_links_in_page()"
+});
+formatter.result({
+  "duration": 177444621800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium",
+      "offset": 37
+    }
+  ],
+  "location": "GoogleSearchStepDefinition.user_search_occurence_of_keyword_in_page(String)"
+});
+formatter.result({
+  "duration": 339445000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium",
+      "offset": 54
+    }
+  ],
+  "location": "GoogleSearchStepDefinition.user_displays_occurence_of_keyword_in_page(String)"
+});
+formatter.result({
+  "duration": 303167900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GoogleSearchStepDefinition.user_close_application()"
+});
+formatter.result({
+  "duration": 365291000,
+  "status": "passed"
+});
 });
