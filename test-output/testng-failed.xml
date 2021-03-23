@@ -6,16 +6,4 @@
       <class name="runner.TestRunner"/>
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="runner.TestRunner">
-        <methods>
-          <include name="afterScenario"/>
-          <include name="tearDownClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- runner.TestRunner -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
