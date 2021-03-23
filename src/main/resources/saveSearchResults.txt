@@ -1,19 +1,18 @@
-Download Java for Linux
 Oracle Java Technologies | Oracle
 Java SE - Downloads | Oracle Technology Network | Oracle ...
-Introduction to Java - W3Schools
 Java (programming language) - Wikipedia
+Introduction to Java - W3Schools
 Java Tutorial | Learn Java - javatpoint
 Java Tutorial - Tutorialspoint
 The Selenium Browser Automation Project :: Documentation ...
 Downloads - Selenium WebDriver
-Selenium with Python — Selenium Python Bindings 2 ...
 Selenium Tutorial for Beginners: Learn WebDriver in 7 Days
+Selenium with Python — Selenium Python Bindings 2 ...
 Selenium: Definition, How it works and Why you need it ...
-selenium · PyPI
 Selenium (software) - Wikipedia
+Selenium - Wikipedia
+selenium · PyPI
 SeleniumHQ/selenium: A browser automation ... - GitHub
-selenium-webdriver - npm
 Quality Assurance vs Quality Control: Definitions & Differences ...
 What is Quality Assurance(QA)? Process, Methods, Examples
 QA – the UK's leading tech skills organisation | Tech training ...
@@ -22,17 +21,10 @@ Software Testing - QA, QC & Testing - Tutorialspoint
 What is Quality Assurance? - Definition from WhatIs.com
 Software Testing Company | Best QA companies | Top QA ...
 QA InfoTech - Your Software Testing Partner | QA Services
-automation | Technology, Types, Rise, History, & Examples ...
-What is Automation? - ISA
-What is Automation? - Definition from Techopedia
-Understanding automation - Red Hat
-Automation Anywhere: A Global Leader in Intelligent ...
-Automation.com - News & Resources for Industrial Automation
-Automation World: Home
-Automation | Definition of Automation at Dictionary.com
 software | Definition, Types, & Facts | Britannica
 Computer - Software - Tutorialspoint
 What is Software? | Software Meaning & Definition - Webopedia
 What is Software? - Computer Hope
 What is Software? - Definition from Techopedia
 Software.com | Data for Developers by Developers
+Computer software - ScienceDaily

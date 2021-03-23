@@ -1,0 +1,642 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Google search with a specific keyword retrieving the first 10 results displayed storing the results in a file and displaying the content to the console window",
+        "description": "",
+        "id": "google-search;google-search-with-a-specific-keyword-retrieving-the-first-10-results-displayed-storing-the-results-in-a-file-and-displaying-the-content-to-the-console-window;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10242665100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the google application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_launches_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3854530200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the search word in the application \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125610600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fetches the top 10 results",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6756300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user stores the results in a file \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user displays the values from the file to the console",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249180800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closes the browser and other instances",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Google_Search_01"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Google search with a specific keyword retrieving the first 10 results displayed storing the results in a file and displaying the content to the console window",
+        "description": "",
+        "id": "google-search;google-search-with-a-specific-keyword-retrieving-the-first-10-results-displayed-storing-the-results-in-a-file-and-displaying-the-content-to-the-console-window;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10930453100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the google application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_launches_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3355373200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the search word in the application \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160434400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fetches the top 10 results",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6648900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user stores the results in a file \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user displays the values from the file to the console",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246827500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closes the browser and other instances",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Google_Search_01"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Google search with a specific keyword retrieving the first 10 results displayed storing the results in a file and displaying the content to the console window",
+        "description": "",
+        "id": "google-search;google-search-with-a-specific-keyword-retrieving-the-first-10-results-displayed-storing-the-results-in-a-file-and-displaying-the-content-to-the-console-window;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11011268700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the google application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_launches_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3195996800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the search word in the application \"QA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137560200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fetches the top 10 results",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6369800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user stores the results in a file \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user displays the values from the file to the console",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310942200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closes the browser and other instances",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Google_Search_01"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Google search with a specific keyword retrieving the first 10 results displayed storing the results in a file and displaying the content to the console window",
+        "description": "",
+        "id": "google-search;google-search-with-a-specific-keyword-retrieving-the-first-10-results-displayed-storing-the-results-in-a-file-and-displaying-the-content-to-the-console-window;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11694996700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the google application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_launches_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3022958900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the search word in the application \"Automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2015218800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fetches the top 10 results",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18118600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user stores the results in a file \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user displays the values from the file to the console",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310457500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closes the browser and other instances",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Google_Search_01"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Google search with a specific keyword retrieving the first 10 results displayed storing the results in a file and displaying the content to the console window",
+        "description": "",
+        "id": "google-search;google-search-with-a-specific-keyword-retrieving-the-first-10-results-displayed-storing-the-results-in-a-file-and-displaying-the-content-to-the-console-window;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10958192400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches the google application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_launches_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3624202600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the search word in the application \"Software\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136150200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fetches the top 10 results",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_fetches_search_result_in_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5099100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user stores the results in a file \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_stores_search_result_in_file(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9747300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user displays the values from the file to the console",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_displays_result_from_file_to_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 252575700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closes the browser and other instances",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Google_Search_01"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Google search with a specific keyword retrieving the first 10 results displayed storing the results in a file and displaying the content to the console window",
+        "description": "",
+        "id": "google-search;google-search-with-a-specific-keyword-retrieving-the-first-10-results-displayed-storing-the-results-in-a-file-and-displaying-the-content-to-the-console-window;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10129145000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user launches the google application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_launches_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3927636700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters the search word in the application \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_enters_search_word_in_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177444621800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user checks the top 10 results links are working fine",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_checks_links_in_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 339445000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user serach for the entered keyword \"Selenium\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 37
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_search_occurence_of_keyword_in_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 303167900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user displays the number of occurence of the keyword \"Selenium\" in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 54
+                }
+              ],
+              "location": "GoogleSearchStepDefinition.user_displays_occurence_of_keyword_in_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365291000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user closes the application",
+            "match": {
+              "location": "GoogleSearchStepDefinition.user_close_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Google_Search_02"
+          }
+        ]
+      }
+    ],
+    "name": "Google_Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "Feature/GoogleSearch.feature"
+  }
+]

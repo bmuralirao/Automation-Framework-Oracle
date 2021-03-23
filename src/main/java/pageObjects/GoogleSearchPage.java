@@ -8,9 +8,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.Scanner;
-import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +32,7 @@ public class GoogleSearchPage {
 	ConfigFileReader configFileReader;
 	static ArrayList<String> searchList = new ArrayList<String>();
 	static FileWriter writer;
+	
 
 	public GoogleSearchPage(WebDriver driver) {
 		this.driver = driver;
@@ -47,7 +49,8 @@ public class GoogleSearchPage {
 	private WebElement txt_htmlContents;
 	@FindAll(@FindBy(how = How.XPATH, using = "//a"))
 	private List<WebElement> lnk_pageLinks;
-	static final Logger logger = LogManager.getLogger(GoogleSearchPage.class.getName());
+	private static Logger logger = Logger.getLogger(GoogleSearchPage.class);
+	
 
 	/*****************************************************
 	 * Method to perform the search in google
@@ -56,13 +59,13 @@ public class GoogleSearchPage {
 
 	public void perform_Search(String inputKey) throws InterruptedException {
 		try {
+			PropertyConfigurator.configure("log4j.properties");
 			logger.info("Searching in the google starts");
 			Selenium sel = new Selenium();
 			txt_googleSearch.sendKeys(inputKey);
 			JavascriptExecutor executor = (JavascriptExecutor) driver;
 			executor.executeScript("arguments[0].click();", btn_googleSearch);
-			sel.waitTime();
-		} catch (Exception e) {
+			sel.waitTime();		} catch (Exception e) {
 			logger.info("Error while doing the searchin in the google " + e.getStackTrace());
 		}
 	}
@@ -72,7 +75,9 @@ public class GoogleSearchPage {
 	 *****************************************************
 	 *****************************************************/
 	public void openApplication() {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
+			
 			logger.info("Openning the google application");
 			configFileReader = new ConfigFileReader();
 			driver.get(configFileReader.getApplicationUrl());
@@ -87,7 +92,9 @@ public class GoogleSearchPage {
 	 *****************************************************
 	 *****************************************************/
 	public ArrayList<String> fetchSearchResults() {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
+			
 			logger.info("Storing the search result starts");
 			for (WebElement element : txt_SearchList) {
 				searchList.add(element.getText());
@@ -104,6 +111,7 @@ public class GoogleSearchPage {
 	 *****************************************************
 	 *****************************************************/
 	public void storeSearchResultsInFile() throws IOException {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Storing the search result in the text file starts");
 			configFileReader = new ConfigFileReader();
@@ -131,6 +139,7 @@ public class GoogleSearchPage {
 	 **************************************************************************************
 	 **************************************************************************************/
 	public void displayFileContentToConsole() throws FileNotFoundException {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("Displying the file content to the console starts");
 		configFileReader = new ConfigFileReader();
 		try {
@@ -152,6 +161,7 @@ public class GoogleSearchPage {
 	 *****************************************************
 	 *****************************************************/
 	public void checkLinks() throws IOException {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Checking all links are working fine starts");
 			System.out.println("No of links are " + lnk_pageLinks.size());
@@ -186,6 +196,7 @@ public class GoogleSearchPage {
 	 *****************************************************
 	 *****************************************************/
 	public String getTextByBody() {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Getting the content of html");
 		} catch (Exception e) {
@@ -199,6 +210,7 @@ public class GoogleSearchPage {
 	 *****************************************************
 	 *****************************************************/
 	public void close() throws IOException {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Closing the file");
 			writer.close();

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 /**
  * @author Murali Rao
@@ -22,6 +23,7 @@ public class ConfigFileReader {
 	 *****************************************************
 	 *****************************************************/
 	public ConfigFileReader() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading the Configuration.properties file starts");
 		BufferedReader reader;
 		try {
@@ -46,6 +48,7 @@ public class ConfigFileReader {
 	 ****************************************************************
 	 ***************************************************************/
 	public String getChromeDriverPath() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading chrome driver path from the Configuration.properties file starts");
 		String driverPath = properties.getProperty("chromeDriverPath");
 		if (driverPath != null)
@@ -61,6 +64,7 @@ public class ConfigFileReader {
 	 ****************************************************************
 	 ***************************************************************/
 	public String getIEDriverPath() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading IE driver path from the Configuration.properties file starts");
 		String driverPath = properties.getProperty("internetExplorerPath");
 		if (driverPath != null)
@@ -77,6 +81,7 @@ public class ConfigFileReader {
 	 ****************************************************************
 	 ***************************************************************/
 	public long getImplicitlyWait() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading wait time from the Configuration.properties file starts");
 		String implicitlyWait = properties.getProperty("implicitlyWait");
 		if (implicitlyWait != null)
@@ -92,6 +97,7 @@ public class ConfigFileReader {
 	 ****************************************************************
 	 ***************************************************************/
 	public String getApplicationUrl() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading application url from the Configuration.properties file starts");
 		String url = properties.getProperty("applicationURL");
 		if (url != null)
@@ -108,6 +114,7 @@ public class ConfigFileReader {
 	 ****************************************************************
 	 ***************************************************************/
 	public String getFilePath() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading text file path from Configuration.properties file starts");
 		String filePath = properties.getProperty("filePath");
 		if (filePath != null)
@@ -123,6 +130,7 @@ public class ConfigFileReader {
 	 ****************************************************************
 	 ***************************************************************/
 	public String getBrowserType() {
+		PropertyConfigurator.configure("log4j.properties");
 		logger.info("loading browser type from the Configuration.properties file starts");
 		String browserType = properties.getProperty("browser");
 		if (browserType != null)

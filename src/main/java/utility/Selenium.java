@@ -3,6 +3,7 @@ package utility;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -16,7 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class Selenium {
 	ConfigFileReader configFileReader;
 	static WebDriver driver;
-	static final Logger logger = LogManager.getLogger(Selenium.class.getName());
+	static final Logger logger = LogManager.getLogger(Selenium.class);
 
 	/*****************************************************
 	 * Method for browser and driver initialization
@@ -25,6 +26,7 @@ public class Selenium {
 	 *****************************************************
 	 *****************************************************/
 	public WebDriver driverIntialization() {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Driver initialization starts");
 			configFileReader = new ConfigFileReader();
@@ -53,6 +55,7 @@ public class Selenium {
 	 *****************************************************
 	 *****************************************************/
 	public void waitTime() {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Waiting starts");
 			configFileReader = new ConfigFileReader();
@@ -69,6 +72,7 @@ public class Selenium {
 	 *****************************************************
 	 *****************************************************/
 	public void closeBrowser() {
+		PropertyConfigurator.configure("log4j.properties");
 		try {
 			logger.info("Closing browser starts");
 			WindowsUtils.killByName("chrome.exe");
